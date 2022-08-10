@@ -34,7 +34,7 @@
         //do something later when date is reached
         if (distance < 0) {
           document.getElementById("headline").innerText = "It's your birthday!";
-          window.location.replace("https://mounika.co");
+          window.location.replace("https://happybirthday.mounika.co");
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
